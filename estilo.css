@@ -1,4 +1,7 @@
+/* CSS CREADO POR JOSE ANTONIO BOIX */
+/* CSS ULTIMA MODIFICACIÓN 21/4/2020 */
 
+/* CSS DEL HEADER */
 
 header {
     padding: 50px;
@@ -6,6 +9,8 @@ header {
     background: #1abc9c;
     color: white;
 }
+
+/* CSS DEL NAV */
 
 .navbar {
     overflow: hidden;
@@ -30,38 +35,40 @@ header {
     color: black;
 }
 
+/* CSS DEL MAIN */
+
 article {
     display: flex;
     flex-wrap: wrap;
-  }
+}
   
-  div.ficha {
+div.ficha {
     border: black 3px solid;
     margin: 2px;
     background-color: lightgray;
-  }
+}
   
-  article p {
+article p {
     margin: 0;
     padding: 5px;
-  }
+}
   
-  p.p1 {
+p.p1 {
     text-align: center;
-  }
+}
   
-  p.p2 {
+p.p2 {
     padding: 5px 0;
     background-color: grey;
     font-size: 150%;
     font-weight: bold;
     text-align: center;
-  }
+}
   
-  p.p3 {
+p.p3 {
     text-align: justify;
     font-size: 125%;
-  }
+}
 
 p.p4 {
     text-align: center;
@@ -83,14 +90,13 @@ p.centrado {
     text-align: center;
 }
 
-
-
 table {
     text-align: left;
     font-size: 125%;
 }
   
-  
+/* CSS DEL FOOTER */
+
 footer {
     padding: 20px;
     text-align: center;
