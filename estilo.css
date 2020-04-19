@@ -1,7 +1,7 @@
 
 
 header {
-    padding: 80px;
+    padding: 50px;
     text-align: center;
     background: #1abc9c;
     color: white;
@@ -30,19 +30,71 @@ header {
     color: black;
 }
 
-div { 
-    display: flex; 
+article {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  div.ficha {
+    border: black 3px solid;
+    margin: 2px;
+    background-color: lightgray;
+  }
+  
+  article p {
+    margin: 0;
+    padding: 5px;
+  }
+  
+  p.p1 {
+    text-align: center;
+  }
+  
+  p.p2 {
+    padding: 5px 0;
+    background-color: grey;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  p.p3 {
+    text-align: justify;
+    font-size: 125%;
+  }
+
+p.p4 {
+    text-align: center;
 }
 
-p { 
-    flex: 1; 
-    border: black 1px solid; 
-    margin: 2px; 
+article.a21 div.ficha {
+    width: 24.2%;
 }
 
+article.dos div.ficha {
+    width: 49%;
+}
+
+article.tres div.ficha {
+    width: 100%;
+}
+
+p.centrado {
+    text-align: center;
+}
+
+
+
+table {
+    text-align: left;
+    font-size: 125%;
+}
+  
+  
 footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background-color: #333;
+    color: white;
 }
 

@@ -1,0 +1,47 @@
+article {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  div.ficha {
+    border: black 3px solid;
+    margin: 2px;
+    background-color: lightgray;
+  }
+  
+  article p {
+    margin: 0;
+    padding: 5px;
+  }
+  
+  p.p1 {
+    text-align: center;
+  }
+  
+  p.p2 {
+    padding: 5px 0;
+    background-color: grey;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  p.p3 {
+    text-align: justify;
+    font-size: 125%;
+  }
+
+  p.p4 {
+    text-align: center;
+
+  }
+
+  article.a21 div.ficha {
+    width: 24%;
+  }
+
+  table {
+      text-align: left;
+      font-size: 125%;
+  }
+  
