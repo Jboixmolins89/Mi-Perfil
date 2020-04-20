@@ -26,7 +26,7 @@ header {
     text-decoration: none;
 }
   
-.navbar a.right {
+.navbar a.derecha {
     float: right;
 }
  
@@ -42,7 +42,7 @@ article {
     flex-wrap: wrap;
 }
   
-div.ficha {
+div.fondo {
     border: black 3px solid;
     margin: 2px;
     background-color: lightgray;
@@ -53,11 +53,7 @@ article p {
     padding: 5px;
 }
   
-p.p1 {
-    text-align: center;
-}
-  
-p.p2 {
+p.parrafo {
     padding: 5px 0;
     background-color: grey;
     font-size: 150%;
@@ -65,24 +61,24 @@ p.p2 {
     text-align: center;
 }
   
-p.p3 {
+p.parrafo2 {
     text-align: justify;
     font-size: 125%;
 }
 
-p.p4 {
+p.parrafo3 {
     text-align: center;
 }
 
-article.a21 div.ficha {
+article.uno div.fondo {
     width: 24.2%;
 }
 
-article.dos div.ficha {
+article.dos div.fondo {
     width: 49%;
 }
 
-article.tres div.ficha {
+article.tres div.fondo {
     width: 100%;
 }
 
